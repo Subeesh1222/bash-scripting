@@ -38,3 +38,5 @@ Cyan
 36	46
 White
 37	47
+
+https://www.tutorialspoint.com/how-to-output-colored-text-to-a-linux-terminal
