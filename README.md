@@ -12,4 +12,4 @@ This is the repository where we are going to work and automate on my project
 4) git commit -m  "msg name"  : Adding msg to the commit /changes we made
 5) git push                   : My changes will be push to repo
 
-## Ensure you are inside the repo to excute the git commands ; we will clone once and pull multiple times
+### Ensure you are inside the repo to excute the git commands ; we will clone once and pull multiple times
