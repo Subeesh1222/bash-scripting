@@ -7,3 +7,4 @@ sample() {
     echo "I will be printing the uptime"
     uptime
 }
+sample    #calling one time
