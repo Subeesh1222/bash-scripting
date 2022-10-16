@@ -6,6 +6,8 @@ a=10
 b=def
 #b is def and it a string.
 
+DIR=test
+
 ###Here, there is no datatype concept in bash scripting. Everything is string by default
 
 #shell scripting is came up with the UNIX. Since they have re-writtening LINUX they created one more terminal called BASH.
@@ -23,4 +25,10 @@ echo value of b is : $b
 # Lets not declare any value and see how it prints
 echo value of d is : $d      #if there is no value declaration, it will consider as null
 
+# Another important point, if we don't declare a value and we wanted to delete particular folder or file/value
+#rm -rf /data/DIR
+#rm -rf /data/${DIR}      # rm-rf /data/test - as we delacred the value
+                          # if there i sno value it will consider as null and delete folder
 
+
+# in some cases we don't know the value of variable, we can use the heap concept- user can input the value
