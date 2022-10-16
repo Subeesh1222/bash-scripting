@@ -1,9 +1,9 @@
 #!/bin/bash
 
-a =10
+a=10
 #a is 10 and it is an integer.
 
-b = def
+b=def
 #b is def and it a string.
 
 ###Here, there is no datatype concept in bash scripting. Everything is string by default
