@@ -8,3 +8,5 @@ sample() {
     uptime
 }
 sample    #calling one time
+
+
