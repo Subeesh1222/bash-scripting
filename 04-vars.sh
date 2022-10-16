@@ -9,6 +9,7 @@ b=def
 DIR=test
 
 DATE_COMMAND=$(date +%F)  # always use in the parentheses
+LOGGEDIN_USER$=$(who | wc -l)
 
 ###Here, there is no datatype concept in bash scripting. Everything is string by default
 
@@ -42,6 +43,9 @@ echo "Good Morning, Todays date is $DATE_COMMAND"
 # This is the stored data and this will show always same value - wrong way
 
 # We have used the command 'DATE_COMMAND=$(date +%F)' this will give the correct output
+
+
+echo "Number of user logged in today is $LOGGEDIN_USERS"
 
 
 
