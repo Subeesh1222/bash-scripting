@@ -18,5 +18,5 @@ echo $a  # it prints the value of a
 echo ${a}
 echo "{b}"
 echo value of a is : $a
-echo value od b is : $b
+echo value of b is : $b
 
