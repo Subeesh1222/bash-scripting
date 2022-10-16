@@ -9,6 +9,8 @@
  # $#
 
 echo "script name running is $0"
+# to print in color
+echo -e "script name running is e\[34m $0 \e0m"
 
 a=10
 b=$1
