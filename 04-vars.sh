@@ -8,6 +8,8 @@ b=def
 
 DIR=test
 
+DATE_COMMAND=$(date +%F)  # always use in the parentheses
+
 ###Here, there is no datatype concept in bash scripting. Everything is string by default
 
 #shell scripting is came up with the UNIX. Since they have re-writtening LINUX they created one more terminal called BASH.
@@ -32,3 +34,17 @@ echo value of d is : $d      #if there is no value declaration, it will consider
 
 
 # in some cases we don't know the value of variable, we can use the heap concept- user can input the value
+# use export command  example export d=10
+
+
+DATE=2022-09-05
+echo "Good Morning, Todays date is $DATE_COMMAND"
+# This is the stored data and this will show always same value - wrong way
+
+# We have used the command 'DATE_COMMAND=$(date +%F)' this will give the correct output
+
+
+
+
+
+
