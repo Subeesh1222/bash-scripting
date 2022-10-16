@@ -20,3 +20,6 @@ echo "{b}"
 echo value of a is : $a
 echo value of b is : $b
 
+# Lets not declare any value and see how it prints
+echo value of d is : $d
+
