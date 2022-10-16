@@ -7,3 +7,4 @@ stat() {
     echo "Number of users signed in is : $(who|wc -l)" 
     echo "Stat Function is completed bye"
 } 
+stat
