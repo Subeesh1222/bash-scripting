@@ -21,5 +21,6 @@ echo value of a is : $a
 echo value of b is : $b
 
 # Lets not declare any value and see how it prints
-echo value of d is : $d
+echo value of d is : $d      #if there is no value declaration, it will consider as null
+
 
