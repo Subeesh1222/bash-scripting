@@ -2,6 +2,8 @@
 
 #multiple line comments , this to prevent the stop executing certain code if the we loop in multi line
 
+# syntax  <<COMMENT .................  COMMENT
+
 echo "print here"
 echo "hello world"
 
