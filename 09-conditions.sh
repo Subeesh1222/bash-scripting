@@ -14,7 +14,7 @@
 
 # esac
 
-
+Action=$1
 case $Action in
     start)
             echo "start the service"
