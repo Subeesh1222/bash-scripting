@@ -26,6 +26,6 @@ case $Action in
             echo "restart the service"
             ;;
      *)
-            echo -e  "\e[32m valid inputs are start and stop\e[0m"
+            echo -e  "\e[36m valid inputs are start and stop\e[0m"
             ;;       
 esac
