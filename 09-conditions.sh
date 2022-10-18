@@ -13,3 +13,16 @@
 #     xyz;;           
 
 # esac
+
+
+case $Action in
+    start)
+            echo "start the service"
+            ;;
+    stop)
+            echo "stop the service"
+            ;;
+    restart)
+            echo "restart the service"
+            ;;
+esac
