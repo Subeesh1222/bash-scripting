@@ -5,8 +5,9 @@
 echo "print here"
 echo "hello world"
 
-<<< COMMENT
+<<COMMENT
 echo "cloud training"
 echo "bash comments"
-
+a=10
+echo $a
 COMMENT
