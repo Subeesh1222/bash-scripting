@@ -25,4 +25,7 @@ case $Action in
     restart)
             echo "restart the service"
             ;;
+     *)
+            echo "valid inputs are start and stop"
+            ;;       
 esac
